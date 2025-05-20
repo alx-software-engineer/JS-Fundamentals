@@ -9,5 +9,5 @@ while (argv[arrLenght] !== undefined) {
 if (arrLenght < 3) {
     console.log("No argument");
 } else {
-    console.log(argv);
+    console.log(argv[0]);
 }
