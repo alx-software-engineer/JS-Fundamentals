@@ -6,7 +6,7 @@ while (argv[arrLenght] !== undefined) {
     arrLenght++;
 }
 
-if (arrLenght < 2) {
+if (arrLenght < 3) {
     console.log("No argument");
 } else {
     console.log(argv[2])
