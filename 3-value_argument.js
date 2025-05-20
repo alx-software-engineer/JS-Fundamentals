@@ -10,6 +10,6 @@ if (arrLenght < 3) {
     console.log("No argument");
 } else  if (arrLenght == 3){
     console.log("HBTN");
-} else {
+} else if (arrLenght == 4) {
     console.log("HBTN cool");
 }
