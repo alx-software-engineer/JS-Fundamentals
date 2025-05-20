@@ -8,6 +8,8 @@ while (argv[arrLenght] !== undefined) {
 
 if (arrLenght < 3) {
     console.log("No argument");
+} else  if (arrLenght = 3){
+    console.log("HBTN");
 } else {
-    console.log(argv[0]);
+    console.log{"HBTN cool"}
 }
