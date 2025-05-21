@@ -1,12 +1,12 @@
 const { argv } = require('node:process');
 
-let arrLenght = 0;
+let count = 0;
 
-while (argv[arrLenght] !== undefined) {
-    arrLenght++;
+while (argv[count] !== undefined) {
+    count++;
 }
 
-if (arrLenght < 3) {
+if (count < 3) {
     console.log("No argument");
 } else {
     console.log(argv[2])
