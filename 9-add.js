@@ -5,7 +5,7 @@ function add(a, b) {
     // conversion value
     let testValue = 1;
 
-    // check for integer and print C is fun.
+    // check for integer and add argument.
     if ((argv.length < 3) || ((a * testValue) != a) || ((b * testValue) != b)) {
         console.log(NaN);
     } else {
